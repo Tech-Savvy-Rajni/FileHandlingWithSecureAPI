@@ -4,8 +4,6 @@ import java.io.*;
 public class CSVWriter {
     public static void write(String outputCsvfile, String searchValue, String newValue) {
 
-        // String jsonResponse = "{ VerifyVPAResponse: {SubHeader: { requestUUID: ABC123,serviceRequestId: OpenAPI, serviceRequestVersion: 1.0, channelId: TXB }, VerifyVPAResponseBody: {code: 00,result:SUCCESS, customerName: DINESHCHANDRA BHANUPRASAD DAVE,vpa: din9476@axis}}}";
-
         try {
             // Read the CSV file
             BufferedReader br = new BufferedReader(new FileReader(outputCsvfile));
